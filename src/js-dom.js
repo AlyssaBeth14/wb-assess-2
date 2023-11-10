@@ -8,7 +8,23 @@
 // update and say "Log out". If a user clicks on the button again, its text
 // should switch from "Log Out" to "Log In".
 
-/// TODO: replace this with your code
+// const logButton = document.querySelector('#auth')
+
+// let phrase = 'Log In'
+
+// function LogIn(evt) {
+//  const evtTarget = evt.target
+//  evtTarget.innerText = phrase
+//     if(phrase === 'Log In'){
+//         phrase = ('Log Out')
+//     } else {
+//         phrase = ('Log In')
+//     }  
+// }
+// logButton.addEventListener('click', LogIn)
+
+
+
 
 // Send an alert
 //
@@ -18,6 +34,14 @@
 // text box. Then, they can submit the form to trigger the alert.
 
 /// TODO: replace this with your code
+
+// const sendAlert = document.querySelector('#send-alert')
+// const writeWords = (words) => {
+//     alert(`${words}`)
+// }
+// sendAlert.addEventListener('click', writeWords)
+
+
 
 // Add an item
 //
@@ -35,6 +59,19 @@
 //   </ol>
 
 /// TODO: replace this with your code
+// const search = document.querySelector('list')
+// const addItem = () => {
+//     document.createElement('li')
+// search.appendChild(addItem)
+// }
+// .addEventListener('dblclick', )
+//<button id="item-adder">Double-click to add an item</button>
+/* <ol id="list">
+<li>Item</li>
+<li>Item</li>
+<li>Item</li>
+</ol> */
+
 
 // Change colors
 //
@@ -46,6 +83,13 @@
 // Stuff Blue" should make text blue.
 
 /// TODO: replace this with your code
+const changeColor = document.querySelector('')
+function BLAH() {
+
+}
+changeColor.addEventListener('click', changeColor)
+
+
 
 // Calculate factorial
 //
@@ -63,6 +107,14 @@
 //   - puts the result of the function inside the "result" span
 
 /// TODO: replace this with your code
+
+function BLAH(){
+
+}
+// .addEventListener('click', )
+
+
+
 
 // Validate a form
 //

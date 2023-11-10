@@ -35,11 +35,11 @@
 
 /// TODO: replace this with your code
 
-// const sendAlert = document.querySelector('#send-alert')
-// const writeWords = (words) => {
-//     alert(`${words}`)
-// }
-// sendAlert.addEventListener('click', writeWords)
+const sendAlert = document.querySelector('#send-alert')
+const writeWords = (words) => {
+    alert(`${words}`)
+}
+sendAlert.addEventListener('click', writeWords)
 
 
 
@@ -59,18 +59,14 @@
 //   </ol>
 
 /// TODO: replace this with your code
-// const search = document.querySelector('list')
-// const addItem = () => {
-//     document.createElement('li')
-// search.appendChild(addItem)
-// }
-// .addEventListener('dblclick', )
-//<button id="item-adder">Double-click to add an item</button>
-/* <ol id="list">
-<li>Item</li>
-<li>Item</li>
-<li>Item</li>
-</ol> */
+const search = document.querySelector('#list')
+const button = document.querySelector('#item-adder')
+const addItem = () => {
+    document.createElement('li')
+search.appendChild(addItem)
+}
+search.addEventListener('dblclick', addItem)
+
 
 
 // Change colors
@@ -83,7 +79,7 @@
 // Stuff Blue" should make text blue.
 
 /// TODO: replace this with your code
-const changeColor = document.querySelector('')
+const changeColor = document.querySelector('.changes-colors')
 function BLAH() {
 
 }

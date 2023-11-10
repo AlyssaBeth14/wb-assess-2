@@ -14,11 +14,8 @@
 //   ]);
 //   => ['Gale Dekarios', 'Wyll Ravengard', 'Karlach Cliffgate'];
 function getNames(people) {
- 
- 
- 
- 
-  // let fullNames = (${firstName} + ${lastName})
+ let fullNames = people.map(people => {return `${people.firstName} ${people.lastName}`})
+return fullNames
 }
 
 // Given an object representing a person, return their full name (first name and last name).
@@ -31,7 +28,8 @@ function getNames(people) {
 //   getName({ firstName: 'Gale', lastName: 'Dekarios', location: 'Waterdeep' });
 //   => 'Gale Dekarios'
 function getNameUsingDestructuring(person) {
-
+ let getName = person.firstName + ' ' + person.lastName
+  return getName
 }
 
 // Given an array of objects representing people, return a new array of the
@@ -52,8 +50,11 @@ function getNameUsingDestructuring(person) {
 //     { firstName: 'Astarion', lastName: 'Ancunin', location: "Baldur's Gate" }
 //   ];
 function getPeopleByLocation(people, location) {
-
+//  const location = people.filter((person) => person.location === `Baldur's Gate`)
+//   return getPeopleByLocation
 }
+
+
 
 // Translate a phrase to pirate talk.
 //
@@ -93,9 +94,19 @@ function translateToPirateTalk(phrase) {
 // Ex.:
 //   wordCount('hello world')
 //   => { hello: 1, world: 1 }
-function wordCount(str) {
 
+function wordCount(str,word){
+let a = str.split(" ");
+let count = 0;
+for (let i = 0; i < a.length; i++)
+{
+if (word==(a[i]))
+    count++;
 }
+
+return count;
+}
+
 
 // Given an object representing a bug, return true if the given bug is
 // available in the given month.
